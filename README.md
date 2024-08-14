@@ -38,6 +38,12 @@ For data visualisation it will use combination of `networkx`, `pyviz` to create 
 kegg pathway graph aesthetics. All the preference options, inputs, and graphs will be wrapped into a 
 quick app framework `streamlit`.
 
+###
+So far, outputs are stored into `pickle` files for development reasons. 
+Intermediate and final outputs will be stored into csv, txt and other formats that are 
+comprehensive for non-coding researchers. The application will also provide option to
+download a pdf/html report. 
+
 ## Further visions
 
 The current code detects the sets of pathways linking two genes.
