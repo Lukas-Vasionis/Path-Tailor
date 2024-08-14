@@ -53,15 +53,15 @@ that include all genes with impaired expression and show how those pathways
 interact with each other. 
 
 Visually speaking, it would show if sub network 
-of PathwayA - intermediate pathways - PathwayZ have any interactions with PathwayB-PathwayZ. 
+of PathwayA - intermediate pathways - PathwayZ have any interactions with PathwayB-PathwayX. 
 For example:
 
 ```
 PathwayA - intermediate pathways - PathwayZ
                     | 
-                PathwayB - PathwayX
+                PathwayB - PathwayX - PathwayI
                     |
-    PathwayC - PathwayB
+    PathwayC - PathwayD
 ```
 
 
