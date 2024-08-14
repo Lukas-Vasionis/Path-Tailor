@@ -38,6 +38,24 @@ For data visualisation it will use combination of `networkx`, `pyviz` to create 
 kegg pathway graph aesthetics. All the preference options, inputs, and graphs will be wrapped into a 
 quick app of `streamlit`.
 
+## Further visions
 
+The current code detects the sets of pathways linking two genes.
+With additional script, it should be possible to iterate through multiple pairs of genes from omics exeperiments 
+and create a meta-network of related pathways. Such analysis should reveal set pathways
+that include all genes with impaired expression and show how those pathways 
+interact with each other. 
+
+Visually speaking, it would show if sub network 
+of PathwayA - intermediate pathways - PathwayZ have any interactions with PathwayB-PathwayZ. 
+For example:
+
+```
+PathwayA - intermediate pathways - PathwayZ
+                    | 
+                PathwayB - PathwayX
+                    |
+    PathwayC - PathwayB
+```
 
 
