@@ -28,7 +28,7 @@ that would link each pair of pathways (Sew them like Sheets over the genes and f
 - If pathwaysA and pathwaysZ have no common nodes, the algorythm looks for intermediate pathways that 
 share other genes with pathwaysA or pathwaysZ **[to be developed]**.
   - (Alternatively, it should be possible to introduce additional genes from omics experiments. However, 
-  this idea is yet to be explored. See **Further Visions**)**[to be developed]**
+  this idea is yet to be explored. **[to be developed]** (See   **Further Visions**)
   
   
 <img src='docs/img/CASE_intermediate_pathways.png' width=500vw>
@@ -48,7 +48,7 @@ download a pdf/html report.
 
 The current code detects the sets of pathways linking two genes.
 With additional script, it should be possible to iterate through multiple pairs of genes from omics exeperiments 
-and create a meta-network of related pathways. Such analysis should reveal set pathways
+and create a meta-network of related pathways. Such analysis should reveal a set of pathways
 that include all genes with impaired expression and show how those pathways 
 interact with each other. 
 
